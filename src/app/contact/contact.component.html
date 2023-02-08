@@ -1,0 +1,11 @@
+<h2>CONTACT</h2>
+<div class="contact-list">
+    <div class="container" *ngFor="let detail of contact_details">
+        <div class="triangle"></div>
+        <div class="box sb">
+            <img class="logo" src = {{detail.logo}}>
+            <a *ngIf="detail.mailTo" class="information" href="mailto:{{detail.information}}">{{detail.platform}}</a>
+            <a *ngIf="!detail.mailTo" class="information" href="{{detail.information}}">{{detail.platform}}</a>
+        </div>
+    </div>
+</div>
