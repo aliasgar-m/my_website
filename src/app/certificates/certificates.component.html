@@ -1,0 +1,10 @@
+<h2>CERTIFICATIONS</h2>
+<div class="certificate-list">
+    <div class="container" *ngFor="let certificate of certificates">
+        <div class="triangle"></div>
+        <div class="box sb">
+            <h3 class="certificate-title">{{certificate.name}}</h3>
+            <a class="certificate-link" href= {{certificate.link}}>Link</a>
+        </div>
+    </div>
+</div>

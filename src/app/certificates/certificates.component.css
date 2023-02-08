@@ -1,0 +1,62 @@
+h2 {
+    margin-right: 50px;
+    text-align: end;
+    color: var(--headColor);
+    font-family: var(--headStyle);
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.certificate-list {
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.triangle {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: relative;
+
+    border-left: 10px solid transparent;
+    border-right: 30px solid var(--backgroundFill);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.box {
+    width: 300px;
+    height: 130px;
+    display: grid;
+    justify-items: center;
+
+    background: var(--backgroundFill);   
+    color: var(--textColor);
+    font-family: var(--textStyle);
+
+    border-radius: 40px;
+    box-shadow: 0 0 0 2px rgb(69, 162, 158, 0.4), 0.1em 0.2em 0.2em rgba(69, 162, 158, 0.4);
+
+}
+
+.certificate-title {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0px;
+    color: var(--textColor);
+    font-family: var(--textStyle);
+}
+
+.certificate-link {
+    color: var(--textColor);
+    font-family: var(--textStyle);
+}

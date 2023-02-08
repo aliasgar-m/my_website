@@ -9,12 +9,12 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
-
+import { CertificatesComponent } from './certificates/certificates.component';
 // import { ContactComponent } from './contact/contact.component';
 
 
 
-// import { CertificatesComponent } from './certificates/certificates.component';
+
 
 
 @NgModule({
@@ -25,9 +25,8 @@ import { ProjectsComponent } from './projects/projects.component';
     AboutComponent,
     ExperienceComponent,
     ProjectsComponent,
+    CertificatesComponent,
     // ContactComponent,
-
-    // CertificatesComponent,
   ],
   imports: [
     BrowserModule,
