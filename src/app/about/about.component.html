@@ -1,0 +1,29 @@
+<h2>ABOUT</h2>
+<div class="about-info">
+    <img id="tech-stack" *ngIf="changeDisplay == false" src="assets/images/tech-stack.png" />
+    <div id="information" *ngIf="changeDisplay == false">
+        <div class="container" *ngFor="let para of information">
+            <div class="triangle"></div>
+            <div class="box sb">
+                <p>{{para.line1}}</p>
+                <p>{{para.line2}}</p>
+                <a id="resume" href="https://drive.google.com/file/d/1LfHwU7EZDPRwgPJAyP3P7qf9ufvDZ7zi/view?usp=sharing">
+                    {{para.line3}}</a>
+            </div>
+        </div>
+    </div>
+
+    <img id="tech-stack" *ngIf="changeDisplay == true" style="width: 100%; height: 100%;" src="assets/images/tech-stack.png" />
+    <div id="information" *ngIf="changeDisplay == true">
+        <div class="container" *ngFor="let para of information">
+            <div class="triangle"></div>
+            <div class="box sb" style="width: 100%;">
+                <p>{{para.line1}}</p>
+                <p>{{para.line2}}</p>
+                <a href="https://drive.google.com/file/d/1LfHwU7EZDPRwgPJAyP3P7qf9ufvDZ7zi/view?usp=sharing">
+                    {{para.line3}}</a>
+            </div>
+        </div>
+    </div>
+
+</div>
