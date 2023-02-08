@@ -4,8 +4,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
+import { BarComponent } from './bar/bar.component';
 // import { ProjectsComponent } from './projects/projects.component';
-// import { BarComponent } from './bar/bar.component';
 // import { HomeComponent } from './home/home.component';
 // import { ContactComponent } from './contact/contact.component';
 // import { AboutComponent } from './about/about.component';
@@ -16,9 +16,8 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
-    // AppComponent,
-    // BarComponent,
+    AppComponent,
+    BarComponent,
     // HomeComponent,
     // AboutComponent,
     // ProjectsComponent,

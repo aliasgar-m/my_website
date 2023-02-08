@@ -1,0 +1,30 @@
+<div id="name-tag">
+    <img id="logo" src="../assets/images/website_logo.png">
+    <h1 id="name">Aliasgar Zakir Merchant</h1>
+</div>
+
+<div id="menu" *ngIf="!enableSideMenu">
+    <ul id="menu-items">
+        <li>Home</li>
+        <li>About</li>
+        <li>Experience</li>
+        <li>Projects</li>
+        <li>Certifications</li>
+        <li>Contact</li>
+    </ul>
+</div>
+
+<div id="side-menu" *ngIf="enableSideMenu">
+    <button (click)="displaySideMenu()">
+        <span class="material-symbols-outlined">menu</span>
+    </button>
+</div>
+
+<div id="side-menu-2" *ngIf="showSideMenu">
+    <div id="s">Home</div>
+    <div id="s">About</div>
+    <div id="s">Experience</div>
+    <div id="s">Projects</div>
+    <div id="s">Certifications</div>
+    <div id="s">Contact</div>
+</div>
