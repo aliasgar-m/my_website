@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { information } from 'assets/data/information';
+import { information } from 'src/assets/data/information';
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
 
 @Component({
