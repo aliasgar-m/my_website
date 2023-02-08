@@ -8,7 +8,7 @@ export const singleProject = {
 export const projects = [
     {
         name: "Safe Schools",
-        logo: "../assets/images/safeSchools.png",
+        logo: "assets/images/safeSchools.png",
         description: "A visual website to allow parents to \
                       choose the best schools for their children \
                       based on the crimes dataset",
@@ -17,7 +17,7 @@ export const projects = [
 
     {
         name: "Divvy Van Assistant",
-        logo: "../assets/images/divvy.png",
+        logo: "assets/images/divvy.png",
         description: "An application to streamline the work \
 				of transporting bikes between stations for \
 				Divvy van assistants",
@@ -26,49 +26,49 @@ export const projects = [
 
     {
         name: "News Reporter",
-        logo: "../assets/images/newsReporter.png",
+        logo: "assets/images/newsReporter.png",
         description: "TBD",
         projectLink: ""
     },
 
     {
         name: "EComm",
-        logo: "../assets/images/ecommerce.png",
+        logo: "assets/images/ecommerce.png",
         description: "TBD",
         projectLink: ""
     },
 
     {
         name: "Winter Storm Elliott: TWC",
-        logo: "../assets/images/winterStorm.png",
+        logo: "assets/images/winterStorm.png",
         description: "TBD",
         projectLink: ""
     },
 
     {
         name: "PlayViz",
-        logo: "../assets/images/playviz.png",
+        logo: "assets/images/playviz.png",
         description: "TBD",
         projectLink: ""
     },
 
     {
         name: "God's Eye",
-        logo: "../assets/images/godsEye.png",
+        logo: "assets/images/godsEye.png",
         description: "TBD",
         projectLink: ""
     },
     
     {
         name: "Book Review",
-        logo: "../assets/images/book_review.png",
+        logo: "assets/images/book_review.png",
         description: "TBD",
         projectLink: ""
     },
 
     {
         name: "Weather Analysis",
-        logo: "../assets/images/weather_analysis.png",
+        logo: "assets/images/weather_analysis.png",
         description: "TBD",
         projectLink: ""
     }
