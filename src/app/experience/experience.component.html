@@ -1,0 +1,12 @@
+<h2>EXPERIENCE</h2>
+<div class="experience-list">
+    <div class="container" *ngFor="let company of experiences">
+        <div class="triangle"></div>
+        <div class="box sb">
+            <h3 class="company-title">{{company.name}}</h3>
+            <img class="logo" src = {{company.logo}}>
+            <p id="job-title">{{company.job_title}}</p>
+            <p id="job-duration">{{company.duration}}</p>
+        </div>
+    </div>
+</div>
