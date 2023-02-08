@@ -1,0 +1,16 @@
+<h2>PROJECTS</h2>
+<div class="project-list">
+    <div class="container" *ngFor="let project of projects">
+        <div class="triangle"></div>
+        <div class="box sb">
+            <h3 class="project-title">{{project.name}}</h3>
+            <div class="details">
+                <div class="logo-link">
+                    <img class="logo" src = {{project.logo}}>
+                    <a class="projectLink" href= {{project.projectLink}}>Link</a>
+                </div>
+                <div class="description">{{project.description}}</div>
+            </div>
+        </div>
+    </div>
+</div>

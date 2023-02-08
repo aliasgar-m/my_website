@@ -8,7 +8,7 @@ import { BarComponent } from './bar/bar.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
-// import { ProjectsComponent } from './projects/projects.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 // import { ContactComponent } from './contact/contact.component';
 
@@ -24,7 +24,7 @@ import { ExperienceComponent } from './experience/experience.component';
     HomeComponent,
     AboutComponent,
     ExperienceComponent,
-    // ProjectsComponent,
+    ProjectsComponent,
     // ContactComponent,
 
     // CertificatesComponent,
