@@ -24,52 +24,52 @@ export const projects = [
         projectLink: ""
     },
 
-    {
-        name: "News Reporter",
-        logo: "assets/images/newsReporter.png",
-        description: "TBD",
-        projectLink: ""
-    },
+    // {
+    //     name: "News Reporter",
+    //     logo: "assets/images/newsReporter.png",
+    //     description: "TBD",
+    //     projectLink: ""
+    // },
 
-    {
-        name: "EComm",
-        logo: "assets/images/ecommerce.png",
-        description: "TBD",
-        projectLink: ""
-    },
+    // {
+    //     name: "EComm",
+    //     logo: "assets/images/ecommerce.png",
+    //     description: "TBD",
+    //     projectLink: ""
+    // },
 
-    {
-        name: "Winter Storm Elliott: TWC",
-        logo: "assets/images/winterStorm.png",
-        description: "TBD",
-        projectLink: ""
-    },
+    // {
+    //     name: "Winter Storm Elliott: TWC",
+    //     logo: "assets/images/winterStorm.png",
+    //     description: "TBD",
+    //     projectLink: ""
+    // },
 
     {
         name: "PlayViz",
         logo: "assets/images/playviz.png",
-        description: "TBD",
+        description: "In progress",
         projectLink: ""
     },
 
-    {
-        name: "God's Eye",
-        logo: "assets/images/godsEye.png",
-        description: "TBD",
-        projectLink: ""
-    },
+    // {
+    //     name: "God's Eye",
+    //     logo: "assets/images/godsEye.png",
+    //     description: "TBD",
+    //     projectLink: ""
+    // },
     
     {
         name: "Book Review",
         logo: "assets/images/book_review.png",
-        description: "TBD",
+        description: "In progress",
         projectLink: ""
     },
 
     {
         name: "Weather Analysis",
         logo: "assets/images/weather_analysis.png",
-        description: "TBD",
+        description: "In progress",
         projectLink: ""
     }
 ];
